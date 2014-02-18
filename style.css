@@ -1,0 +1,56 @@
+@charset "utf-8";
+table table td {
+	padding: inherit !important;	/* Shit cleaner */
+}
+td, th {
+	vertical-align: top;
+	padding: 1em;
+	padding-bottom: 5em;
+}
+td {	
+	background-color: #CCC;
+	text-align: left;
+}
+th a {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+}
+tr:hover td{
+	background-color: #EEE;
+}
+tr:hover th{
+	background-color: #222;
+}
+body {
+	margin: 0px;
+	background-color: #CCC;
+}
+th {
+	color: #EEE;
+	text-align: RIGHT;
+	background-color: #111;
+}
+.txtbox {
+	width: 100%;
+	height: 15em;
+	resize:vertical;
+}
+option {
+	width: 30%;
+}
+#header {
+	text-align:center !important;
+}
+.listComment {
+	background: #CCC;
+	color:#666;
+}
+#go {
+	font-size: large;
+	color: #000;
+	width: 30%;
+	box-shadow: 0px 0px 5px #000;
+}
